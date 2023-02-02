@@ -82,3 +82,28 @@ main>.right>.block1{
 .print{
     display: none;
 }
+#name,#project,#link,#company,#designation,#duration,#email,#phone,#github,#linkedin,#degree,#college,#Startingyear,#endingyear,#CGPA{
+    position: fixed;
+    left: 200px;
+    width: 17em;
+}
+#Startingyear,#endingyear{
+    width: 17em;
+}
+#skill{
+    position:relative;
+    left: 80px;
+    min-height: 5em;
+    width: 17em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    overflow: hidden;
+    resize: vertical;
+}
+#description{
+    position:relative;
+    left: 38px;
+    min-height: 5em;
+    width: 17em;
+}
