@@ -86,24 +86,34 @@ main>.right>.block1{
     position: fixed;
     left: 200px;
     width: 17em;
+} 
+br{
+    margin-bottom: 5em;
 }
 #Startingyear,#endingyear{
     width: 17em;
 }
-#skill{
-    position:relative;
-    left: 80px;
-    min-height: 5em;
-    width: 17em;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    white-space: pre-wrap;
-    overflow: hidden;
-    resize: vertical;
+#skill,#description1{
+   position:relative;
+   left: 120px;
+   height: 5em;
 }
-#description{
-    position:relative;
-    left: 38px;
-    min-height: 5em;
+#skill{
     width: 17em;
+    left:9.6em;
+}
+#description1,#description2{
+    position: relative;
+    left: 38.5px;
+    top: 1px;
+    width: 17em;   
+}
+
+#skill-title{
+    position: fixed;
+    top: 250px;
+}
+#des1,#des2{
+    position: relative;
+    bottom: 50px;
 }
